@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Inheritance
 {
-    class Reptile : Animal
+     class Reptile : Animal
     {
         public string Type { get; set; }
         public bool Backbone { get; set; }
@@ -13,16 +13,7 @@ namespace Inheritance
     }
 
 
-    public Reptile(
-       string Name, int Age, int Eyes,
-        bool HasHead, string Type,
-        bool Backbone, bool TwoLegs, int Wings)
-    {
-        Name = name;
-        Age = age;
-        HasHead = HasHead;
-        Type = Type;
-        Backbone = Backbone;
-        TwoLegs = TwoLegs;
-    }
+
 }
+
+

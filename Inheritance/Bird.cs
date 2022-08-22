@@ -14,21 +14,19 @@ namespace Inheritance
         public int Wings { get; set; }
 
     }
-    public Bird()
-    {
+    
+    
 
-    }
 
-    public Bird(
-        string Name, int Age, int Eyes,
-        bool HasHead, string Type,
-        bool Backbone, bool TwoLegs, int Wings)
-    {
-        Name = name ;
-        Age = age;
-        HasHead = HasHead;
-        Type = Type;
-        Backbone = Backbone;
-        TwoLegs = TwoLegs;
-    }
-}
+     // public Bird(
+       // string Name, int Age, int Eyes,
+      //  bool HasHead, string Type,
+      //  bool Backbone, bool TwoLegs, int Wings)
+   // {
+      //  Name = name ;
+      //  Age = age;
+      //  HasHead = HasHead;
+      //  Type = Type;
+       // Backbone = Backbone;
+       // TwoLegs = TwoLegs;
+ }
