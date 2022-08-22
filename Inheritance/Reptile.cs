@@ -12,6 +12,7 @@ namespace Inheritance
         public int Wings { get; set; }
     }
 
+
     public Reptile(
        string Name, int Age, int Eyes,
         bool HasHead, string Type,
